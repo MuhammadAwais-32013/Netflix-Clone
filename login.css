@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.456),rgba(0, 0, 0, 0.297)),url(./img/login-bg.jpeg);
+    height: 100vh;
+}
+
+.logo{
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 10px 150px;
+   
+}
+
+.logo img{
+    width: 150px;
+    
+}
+
+.login{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 400px;
+    height: 600px;
+    border-radius: 3%;
+    padding: 40px;
+}
+
+.sign-input{
+    box-shadow: none !important;
+    font-size: 0.7rem;
+}
+
+.textDeco{
+    text-decoration: none;
+}

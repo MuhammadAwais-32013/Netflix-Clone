@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oxygen", sans-serif;
+}
+
+body {
+  background-color: #141414;
+  position: relative;
+  overflow-x: hidden;
+}
+.main-Navbar {
+  position: fixed;
+  width: 100vw;
+  transition: background 0.2s linear;
+  background-color: #827d7d3e;
+}
+
+/* ----------nav Left--------------- */
+.navleft img {
+  width: 100px;
+}
+
+.nav-pading-left {
+  padding-left: 60px;
+}
+
+/* ----------nav Left--------------- */
+.nav-pading-right {
+  padding-right: 60px;
+}
+
+/* ---------------Drop Down---------------- */
+
+.nav-dropdown-box {
+  display: none;
+}
+
+.nav-dropdown-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 10px;
+}
+
+.nav-dropdown-btn:hover {
+  color: crimson;
+}
+.nav-dropdown-box .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.645);
+  margin-top: 25px;
+  margin-left: -70px;
+  font-size: 10px !important;
+  border-top: 3px solid white;
+}
+
+.nav-dropdown-box .dropdown-menu .dropdown-item {
+  font-size: 15px !important;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.786);
+  width: 260px;
+  padding: 10px 15px;
+}
+
+.nav-dropdown-box .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.227);
+  color: white;
+}
+
+.nav-btn {
+  display: block;
+  margin-left: -100px;
+}
+
+.nav-btn button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.548);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.nav-btn button:hover {
+  color: #fff;
+}
+
+.nav-right-icon {
+  color: rgba(255, 255, 255, 0.645);
+  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nav-right-icon:hover {
+  color: #fff;
+}
+
+.navright {
+  padding-left: 10px;
+  margin-right: -50px;
+}
+
+
+/* -------------Video Section------------- */
+
+.video-content{
+  width: 100%;
+  z-index: 10;
+
+}
+
+.video-content video{
+  width: 100%;
+}
+
+.video-content .video-top{
+  position: absolute;
+  top: 0%;
+  height: 40px;
+  width: 100%;
+  background: linear-gradient(to top ,rgba(255, 255, 255, 0), rgb(0, 0, 0));
+}
+
+.video-content .video-bottom{
+  position: absolute;
+  bottom: 0%;
+  height: 30px;
+  width: 100%;
+  background: linear-gradient(to bottom ,transparent,#141414);
+}
+
+.video-img{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  font-size: 30px;
+  margin-left: 80px;
+  opacity: 0.8;
+
+}
+
+.video-img img{
+  margin-top: 190px;
+  width: 40%;
+}
+
+
+/* --------------------End video Sec----------------- */
+
+/* --------------------------Slider---------------------- */
+
+.slider{
+  position: absolute;
+  
+}
+
+.card{
+  width: 300px;
+  background-color: #141414;
+  transition: 0.2s linear;
+  font-size: 120px;
+  position: relative;
+  margin: 3px;
+}
+
+.card-icon{
+  font-size: 25px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.4);
+  z-index: 10;
+  margin-left: 50px
+}
+
+.card-body{
+  color: #fff;
+  font-size: 30px;
+  display: none;
+}
+
+.card-text{
+  font-size: 12px;
+}
+
+.card:hover > .card-body{
+  display: block;
+}
+
+.bollywood{
+  margin-top: 20%;
+}
+
+.Hollywood{
+  margin-top: 40%;
+}
+
+.footer{
+  margin-top: 70%;
+ height: 400px;
+ margin-left: 0px;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.copyright{
+  color: red;
+  font-size: 15px;
+  
+}

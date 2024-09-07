@@ -1,0 +1,77 @@
+/* ----------------Responsive Code ------------------ */
+@media(max-width:767.95px){
+    .navleft img{
+        width: 50px !important;
+    }
+
+    .nav-pading-left{
+        padding-left: 15px !important;
+    }
+
+    .nav-pading-right{
+        padding-right: 15px !important;
+    }
+
+    .nav-dropdown-box{
+        display: block !important;
+    }
+
+    .nav-btn{
+        display: none !important;
+    }
+
+    .nav-right-icon{
+        padding: 5px !important;
+        margin: 0px !important;
+        font-size: 15px !important;
+    }
+
+    .navright{
+        margin: 0px !important;
+    }
+
+    .video-img{
+        margin-left: 20px !important;
+        
+    }
+
+    .video-img img{
+        margin-top: 120px !important;
+        width: 200px !important; 
+        opacity: 0.7 !important; 
+    }
+
+    .video-img button{
+        font-size: 10px !important;
+        width: max-content !important;
+         opacity: 0.7 !important;
+    }
+
+    .card{
+        width: 160px !important;
+        margin-right: 15px;
+    }
+
+    .card:hover{
+        
+        margin-left: 25px !important;
+      }
+    
+      .card-body{
+        font-size: 15px !important;
+        padding: 0px !important;
+      }
+
+      .card-icon{
+        font-size: 17px !important;
+      }
+
+      .card-text{
+        font-size: 8px !important;
+      }
+
+      copyright{
+        color: red !important;
+        font-size: 15px !important;
+      }
+}
